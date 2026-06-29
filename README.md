@@ -1,4 +1,4 @@
-# 🎓 GradeLog Bot
+# GradeLog Bot
 
 > A Telegram bot that helps students track, calculate, and manage their academic grades — anytime, anywhere.
 
@@ -9,7 +9,7 @@
 
 ---
 
-## 📌 Overview
+## Overview
 
 GradeLog Bot is a fully functional Telegram bot built with Go that allows students to securely register, log their courses, and instantly calculate their GPA and CGPA — all from within Telegram. No spreadsheets, no manual calculations, no friction.
 
@@ -17,26 +17,26 @@ The project was built from the ground up as a real-world backend system, coverin
 
 ---
 
-## 🚀 Live Demo
+## Live Demo
 
 Try it live on Telegram: [@testgradelogbot](https://t.me/testgradelogbot)
 
 ---
 
-## ✨ Features
+## Features
 
-- 🔐 **Secure Authentication** — Register and login with bcrypt-hashed passwords
-- 📚 **Semester Management** — Create and organize courses by semester
-- 📝 **Course CRUD** — Add, view, update, and delete courses with full validation
-- 📊 **GPA Calculation** — Instant per-semester GPA on a 5.0 scale
-- 🏆 **CGPA Calculation** — Cumulative GPA calculated across all semesters
-- 💬 **Conversational UI** — Clean inline keyboard interface built for Telegram
-- 💾 **Data Persistence** — JSON-based local database that survives restarts
-- 🔒 **Session Management** — Per-user session tracking for multi-step conversations
+- **Secure Authentication** — Register and login with bcrypt-hashed passwords
+- **Semester Management** — Create and organize courses by semester
+- **Course CRUD** — Add, view, update, and delete courses with full validation
+- **GPA Calculation** — Instant per-semester GPA on a 5.0 scale
+- **CGPA Calculation** — Cumulative GPA calculated across all semesters
+- **Conversational UI** — Clean inline keyboard interface built for Telegram
+- **Data Persistence** — JSON-based local database that survives restarts
+- **Session Management** — Per-user session tracking for multi-step conversations
 
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 
 ```
 gradelog-bot/
@@ -62,7 +62,7 @@ The architecture follows a clean layered approach — the bot layer handles user
 
 ---
 
-## 🛠️ Technical Stack
+## Technical Stack
 
 | Technology | Purpose | Why It Was Chosen |
 |---|---|---|
@@ -74,7 +74,7 @@ The architecture follows a clean layered approach — the bot layer handles user
 
 ---
 
-## ⚙️ Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -115,37 +115,37 @@ go run main.go
 
 ---
 
-## 📖 Usage
+## Application Interface Guide
 
-| Action | How |
-|---|---|
-| Register | Tap 📝 Register and follow the prompts |
-| Login | Tap 🔐 Login with your email and password |
-| Add Semester | Tap ➕ Add Semester from the dashboard |
-| Add Course | Tap ➕ Add Course, select semester, enter details |
-| View Courses | Tap 📚 View Courses and select a semester |
-| Update Course | Tap ✏️ Update Course and follow the prompts |
-| Delete Course | Tap 🗑️ Delete Course and confirm |
-| Calculate GPA | Tap 📊 Calculate GPA and select a semester |
-| Calculate CGPA | Tap 🏆 Calculate CGPA for cumulative result |
+| System Action | User Interaction Pattern |
+| :--- | :--- |
+| **User Registration** | Selection of the `📝 Register` interface option and form completion. |
+| **Authentication** | Triggering the `🔐 Login` interface with credential inputs. |
+| **Semester Creation** | Initialization via the `➕ Add Semester` dashboard route. |
+| **Course Ingestion** | Selecting `➕ Add Course`, targeting a semester node, and schema mapping. |
+| **Resource Retrieval** | Execution of the `📚 View Courses` filter mapped by semester. |
+| **Resource Mutation** | Execution of the `✏️ Update Course` payload transformation wrapper. |
+| **Resource Destruction** | Invoking the `🗑️ Delete Course` protocol with hard confirmation. |
+| **Subtotal Calculation** | Triggering the `📊 Calculate GPA` math engine for a single block. |
+| **Cumulative Aggregation** | Execution of the `🏆 Calculate CGPA` system calculation across all nodes. |
 
 ---
 
-## 🗺️ Roadmap
+## Roadmap
 
 GradeLog Bot is designed to grow beyond grade tracking into a full academic assistant. Planned features include:
 
-### 🤖 Academic Intelligence
+### Academic Intelligence
 - AI-powered study tips and recommendations based on weak courses
 - Grade trend analysis — detect if a student is improving or declining across semesters
 - Predictive alerts when a student is at risk of a GPA drop
 
-### 🔔 Notifications & Reminders
+### Notifications & Reminders
 - Scheduled reminders to log grades after exam periods
 - Automatic alerts when CGPA drops below a student-defined threshold
 - End-of-semester performance summary delivered via Telegram
 
-### 📈 Data & Insights
+### Data & Insights
 - Export full academic transcript as a PDF directly from the bot
 - Visual grade distribution charts per semester
 - Best and worst performing course highlights
@@ -153,16 +153,14 @@ GradeLog Bot is designed to grow beyond grade tracking into a full academic assi
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions, issues, and feature requests are welcome. Feel free to open an issue or submit a pull request.
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License.
 
 ---
-
-<p align="center">Built with ❤️ and Go</p>
